@@ -8,9 +8,9 @@ import {
 } from 'lucide-react';
 
 // --- Firebase Imports ---
-import { initializeApp } from 'firebase/app';
-import { getAuth, signInWithCustomToken, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
-import { getFirestore, collection, addDoc, onSnapshot } from 'firebase/firestore';
+//import { initializeApp } from 'firebase/app';
+//import { getAuth, signInWithCustomToken, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
+// import { getFirestore, collection, addDoc, onSnapshot } from 'firebase/firestore';
 
 // --- Brand Logo Component ---
 const Logo = ({ className = "w-8 h-8", textClass = "text-xl" }) => (
